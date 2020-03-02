@@ -1,5 +1,5 @@
 if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config('./.env');
+    require('dotenv').config('DATABASE_URL=mongodb://localhost/mybrary');
 }
 
 const express = require('express');
